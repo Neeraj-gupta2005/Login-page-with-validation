@@ -2,6 +2,7 @@
 
 This repository contains a simple login page implemented using HTML, CSS, and JavaScript. The login page includes client-side validation for both the password strength and the presence of a username before allowing the user to log in. Additionally, it features a password visibility toggle and connects to a website for using icons.
 
+![Login Page Screenshot](loginPage.png)
 ## Features
 
 - **Password Strength Indicator:** The page evaluates the strength of the entered password and provides visual feedback to the user, indicating whether the password is weak, normal, or strong.
