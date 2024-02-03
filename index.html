@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- login form starts here -->
+
+    <form>
+
+        <div class="login-form">
+            <!-- heading  -->
+            <h1>Login</h1>
+    
+            <!-- username  -->
+            <div class="username">
+                <input type="text" id="username" placeholder="Name" name="fusername" value="">
+                <i class="fa-solid fa-user"></i>
+            </div>
+    
+            <!-- password -->
+            <div class="password">
+                <input type="password" id="pass" placeholder="Password"  name="fpassword" value="">
+                <i id="lock" class="fa-solid fa-lock"></i>
+            </div>
+    
+            <!-- password validation -->
+            <div class="password-type">
+                <div class="weak">
+                    weak
+                </div>
+                <div class="normal">
+                    normal
+                </div>
+                <div class="strong">
+                    strong
+                </div>
+            </div>
+    
+            <!-- Remember me and forgot password  -->
+            <div class="extra-items">
+                <label for="checkbox"><input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+    
+            <!-- login button -->
+            <button class="button" id="btn">Log in</button>
+            <!-- <input id="btn" class="button" type="submit" value="Submit"> -->
+    
+            <!-- register  -->
+            <p class="last-element">Don't have an account?<a href="#"> Register</a> </p>
+        </div>
+
+    </form>
+    
+
+
+
+    <script src="https://kit.fontawesome.com/9dd236e792.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
